@@ -1,0 +1,31 @@
+html,
+
+#todo-list li {
+	padding: 18px 20px 18px 0;
+	position: relative;
+}
+
+#todo-list .destroy {
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	background: url(destroy.png) no-repeat;
+}
+
+#todo-list .destroy:hover {
+  	background-position: 0 -20px;
+}
+
+#todo-list li.editing .edit {
+	display: block;
+}
+
+#todo-list li.editing .view {
+	display: none;
+}
+
+#todo-list li .edit {
+	display: none;
+}
